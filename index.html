@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- CDN BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CDN ICONE BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <!-- CSS MIO -->
+   <link rel="stylesheet" href="./style.css">
+  </head>
+
+
+
+
+
+  <body>
+    <!-- INIZIO NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold secText" href="#">Presto.it</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots-vertical display-6"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-link">
+              <li class="nav-item">
+                <a class="nav-link secText" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link secText" href="#">Chi siamo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link secText" href="#">
+                  Tutti gli annunci
+                </a> </li>
+            </ul>
+            <a class="nav-link" href=""><i class="bi bi-person-fill d-none d-md-flex display-6 secText"></i></a>
+          </div>
+        </div>
+      </nav>
+<!-- INIZIO HEADER -->
+    <header class="container-fluid">
+    <div class="row text-center vh-100 align-items-center justify-content-center header-custom text-light">
+    <div class="col-12">
+    <h1 class="display-3">Presto.it</h1>
+    <h4>Lorem ipsum dolor sit amet consectetur</h4>
+    </div>
+</div>
+    </header>
+    <!-- FINE HEADER -->
+    <main>
+        <div class="mt-5">
+            <h2 class="text-center playfair-display">Lorem,ipsum.</h2>
+        </div>
+        <!-- DIV CARDS -->
+        <div class="container-fluid">
+            <div class="row justify-content-evenly mt-5">
+                <div class="col-12 col-md-3">
+                    <div class="card coloreCard mb-3" style="max-width:18rem;">
+                        <i class="bi bi-person text-white colorIcone display-10 text-center"></i>
+                        <div class="card-body">
+                          <p class="card-text text-white text-center roboto-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,eum illum.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card coloreCard mb-3" style="max-width:18rem;">
+                        <i class="bi bi-airplane-fill text-white colorIcone display-10 text-center"></i>
+                        <div class="card-body">
+                          <p class="card-text text-white text-center roboto-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,eum illum.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card coloreCard mb-3" style="max-width:18rem;">
+                        <i class="bi bi-arrow-90deg-right  text-white colorIcone display-10 text-center"></i>
+                        <div class="card-body">
+                          <p class="card-text text-white text-center roboto-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,eum illum.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <h2 class="text-center playfair-display">Lorem,ipsum.</h2>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./media/divano interni.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./media/divano.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./media/sedie esterni.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-12 col-md-7 mt-5 justify-content-around">
+                    <h3 class="text-center playfair-display">Lorem,ipsum dolor.</h3>
+                    <p class="roboto-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus libera officio nemo pariatur esso culpa vero odit, a repudiandae atque rem neque fuga incidunt dolorum provident optio, ab at aperiam.</p>
+                </div>
+            </div>
+        </div>
+ 
+     <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-3 mt-5 d-flex justify-content-center">
+                <button class="btn buttonCustom ml-5">Chi siamo</button>
+            </div>
+        </div>
+     </div>
+
+
+    
+<div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="text-center playfair-display mt-5">Lorem, ipsum.</h3>
+      </div>
+      <div class="col-12 col-md-6 spaceCounter customCounter text-center">
+        <div>
+          <p class="roboto-light mt-5">Le aziende partner</p>
+          <p id="firstNumber">1</p>
+        </div>
+        <div>
+          <p class="roboto-light">I nostri clienti</p>
+          <p id="secondNumber">1</p>
+        </div>
+        <div>
+          <p class="roboto-light">Gli articoli più venduti</p>
+          <p id="thirdNumber">1</p>
+        </div>
+      </div> 
+      <div class="col-12 col-md-4">
+        <img src="./media/tv.jpg" alt="" class="d-block w-100">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-3 mt-5 d-flex justify-content-center">
+            <button class="btn buttonCustom ml-5">Tutti gli annunci</button>
+        </div>
+    </div>
+ </div>
+
+ <div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-12 mt-2 d-flex justify-content-center ml-5">
+            <p class="roboto-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quisquam!</p>  
+          </div>
+    </div>
+ </div>
+
+    </main>
+
+<footer>
+<div class="container-fluid">
+    <div class="row bg-info">
+        <div class="col-12 col-md-2 coloreCard">
+            <ul class="yText">
+               <li> <link rel="stylesheet" href="">link</li>
+               <li> <link rel="stylesheet" href="">link</li>
+               <li> <link rel="stylesheet" href="">link</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-7 coloreCard text-center">
+            <p class="roboto-light yText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Doloremque,sint!</p> 
+        </div>
+        <div class="col-12 col-md-3 coloreCard">
+            <ul class="yText">
+               <li> <link rel="stylesheet" href="">link social</li>
+               <li> <link rel="stylesheet" href="">link social</li>
+               <li> <link rel="stylesheet" href="">link social</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</footer>
+
+<!-- JS DI BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- JS MIO -->
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+
+:root{
+    --main: #eeeeee;
+    --sec: #DAB651;
+    --acc: #263425;
+}
+
+/* .secText{
+    color:var(--sec);
+
+} */
+
+.nav-link{
+    color: #DAB651;
+}
+.navbar-brand{
+    color:#DAB651
+}
+.navbarScroll{
+background-color: var(--acc);
+transition: 1s;
+}
+
+.header-custom{
+    background:linear-gradient(black,transparent), url(./media/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.playfair-display{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font: weight 100px;;
+    font-style:italic;
+  }
+  
+.coloreCard{
+    background-color: var(--acc);
+}
+
+.colorIcone{
+    color:white;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .buttonCustom{
+    background-color: #263425;
+    color:#DAB651
+  }
+
+.spaceCounter{
+margin-left: 100px;
+margin-top:20px;
+}
+
+.customCounter{
+    height:350px;
+    border:1px solid black;
+    border-radius: 10vh;
+}
+
+.yText{
+    color: var(--sec);
+}
