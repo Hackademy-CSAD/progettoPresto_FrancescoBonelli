@@ -45,7 +45,12 @@ transition: 1s;
     background:linear-gradient(black,transparent), url(./media/tavolo.jpg);
     background-size: cover;
     background-position: center;
+}
 
+.header-customChisiamo-custom{
+    background:linear-gradient(black,transparent), url(./media/team2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .playfair-display{
@@ -144,6 +149,32 @@ h1{
     height:30vh;
   }
 
+.imgCustom{
+    height: 50vh;
+    
+}
+
+.cardCustom{
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cardCustom:hover{
+    border: 1px solid var(--sec);
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+  
+.cardCustomhome{
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cardCustomhome:hover{
+    border: 1px solid var(--sec);
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    background-color:#DAB651
+}
+
 
   @media screen and (max-width: 576px){
     .cardResponsive{
@@ -161,4 +192,13 @@ h1{
         margin-top:15px;
         text-align: center;
     }
-  }
+   .imgCustom{
+    display:inline-block;
+    align-items: center;
+    height:30vh;
+   }
+    .cardCustom{
+    margin-right: 30px;
+    }
+   }
+  
